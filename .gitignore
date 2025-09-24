@@ -1,0 +1,47 @@
+# Ignore model files
+*.h5
+*.hdf5
+*.pb
+*.pt
+*.pth
+*.ckpt
+*.joblib
+*.pkl
+*.sav
+*.onnx
+*.tflite
+
+# Ignore logs and checkpoints
+logs/
+*.log
+checkpoints/
+*.ckpt.*
+events.out.tfevents.*
+
+# Ignore dataset cache or temp
+*.npy
+*.npz
+*.csv
+*.tsv
+*.tmp
+*.cache/
+
+# Ignore notebooks checkpoints
+.ipynb_checkpoints/
+
+# Ignore Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pkl
+
+# Ignore environment files
+.env
+.venv/
+env/
+venv/
+
+# Ignore OS files
+.DS_Store
+Thumbs.db
