@@ -1,4 +1,6 @@
-# Ignore model files
+# =====================
+# Models
+# =====================
 *.h5
 *.hdf5
 *.pb
@@ -11,14 +13,20 @@
 *.onnx
 *.tflite
 
-# Ignore logs and checkpoints
+# Logs & Checkpoints
 logs/
 *.log
 checkpoints/
 *.ckpt.*
 events.out.tfevents.*
 
-# Ignore dataset cache or temp
+# =====================
+# Datasets
+# =====================
+data/
+dataset/
+datasets/
+images/
 *.npy
 *.npz
 *.csv
@@ -26,22 +34,29 @@ events.out.tfevents.*
 *.tmp
 *.cache/
 
-# Ignore notebooks checkpoints
+# =====================
+# Notebooks
+# =====================
 .ipynb_checkpoints/
 
-# Ignore Python cache
+# =====================
+# Python Cache
+# =====================
 __pycache__/
 *.pyc
 *.pyo
 *.pyd
-*.pkl
 
-# Ignore environment files
+# =====================
+# Environments
+# =====================
 .env
 .venv/
 env/
 venv/
 
-# Ignore OS files
+# =====================
+# OS Files
+# =====================
 .DS_Store
 Thumbs.db
